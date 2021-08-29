@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="topics"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/yug/cp/topics/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/yug/cp/topics/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/yug/cp/topics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/yug/cp/topics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/yug/cp/topics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/yug/cp/topics/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/yug/cp/topics/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/yug/cp/topics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/yug/cp/topics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/yug/cp/topics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/yug/cp/topics/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/yug/cp/topics/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/yug/cp/topics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/yug/cp/topics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/yug/cp/topics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="topics">
+				<Option output="/home/yug/cp/topics/cmake-build-debug/topics" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yug/cp/topics/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/yug/cp/topics/."/>
+					<Add directory="/home/yug/cp/topics/_1_number_theory"/>
+					<Add directory="/home/yug/cp/topics/_2_bit_manipulation"/>
+					<Add directory="/home/yug/cp/topics/_3_stack_and_queue"/>
+					<Add directory="/home/yug/cp/topics/_4_linked_list"/>
+					<Add directory="/home/yug/cp/topics/_5_recursion"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/yug/cp/topics/cmake-build-debug/Makefile&quot;  VERBOSE=1 topics"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/yug/cp/topics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/yug/cp/topics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/yug/cp/topics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="topics/fast">
+				<Option output="/home/yug/cp/topics/cmake-build-debug/topics" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yug/cp/topics/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/yug/cp/topics/."/>
+					<Add directory="/home/yug/cp/topics/_1_number_theory"/>
+					<Add directory="/home/yug/cp/topics/_2_bit_manipulation"/>
+					<Add directory="/home/yug/cp/topics/_3_stack_and_queue"/>
+					<Add directory="/home/yug/cp/topics/_4_linked_list"/>
+					<Add directory="/home/yug/cp/topics/_5_recursion"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/yug/cp/topics/cmake-build-debug/Makefile&quot;  VERBOSE=1 topics/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/yug/cp/topics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/yug/cp/topics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/yug/cp/topics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/yug/cp/topics/_2_bit_manipulation/_1_and_then_there_were_k.cpp">
+			<Option target="topics"/>
+		</Unit>
+		<Unit filename="/home/yug/cp/topics/_2_bit_manipulation/_2_counter_game.cpp">
+			<Option target="topics"/>
+		</Unit>
+		<Unit filename="/home/yug/cp/topics/_2_bit_manipulation/_3_sansa_and_xor.cpp">
+			<Option target="topics"/>
+		</Unit>
+		<Unit filename="/home/yug/cp/topics/_2_bit_manipulation/_4_and_product.cpp">
+			<Option target="topics"/>
+		</Unit>
+		<Unit filename="/home/yug/cp/topics/_2_bit_manipulation/_5_the_great_xor.cpp">
+			<Option target="topics"/>
+		</Unit>
+		<Unit filename="/home/yug/cp/topics/_2_bit_manipulation/_6_a_xor_challange.cpp">
+			<Option target="topics"/>
+		</Unit>
+		<Unit filename="/home/yug/cp/topics/_3_stack_and_queue/_1_stack_implementation.cpp">
+			<Option target="topics"/>
+		</Unit>
+		<Unit filename="/home/yug/cp/topics/_3_stack_and_queue/_2_queue_implementation.cpp">
+			<Option target="topics"/>
+		</Unit>
+		<Unit filename="/home/yug/cp/topics/_3_stack_and_queue/_3_stack_next_element.cpp">
+			<Option target="topics"/>
+		</Unit>
+		<Unit filename="/home/yug/cp/topics/_3_stack_and_queue/_4_stack_stock_span.cpp">
+			<Option target="topics"/>
+		</Unit>
+		<Unit filename="/home/yug/cp/topics/_3_stack_and_queue/_5_stack_maximum_area_histogram.cpp">
+			<Option target="topics"/>
+		</Unit>
+		<Unit filename="/home/yug/cp/topics/_4_linked_list/_1_reverse_linked_list.cpp">
+			<Option target="topics"/>
+		</Unit>
+		<Unit filename="/home/yug/cp/topics/_5_recursion/_10_print_all_permutations.cpp">
+			<Option target="topics"/>
+		</Unit>
+		<Unit filename="/home/yug/cp/topics/_5_recursion/_11_source_to_destination.cpp">
+			<Option target="topics"/>
+		</Unit>
+		<Unit filename="/home/yug/cp/topics/_5_recursion/_1_counting.cpp">
+			<Option target="topics"/>
+		</Unit>
+		<Unit filename="/home/yug/cp/topics/_5_recursion/_2_factorial.cpp">
+			<Option target="topics"/>
+		</Unit>
+		<Unit filename="/home/yug/cp/topics/_5_recursion/_3_fibonacci.cpp">
+			<Option target="topics"/>
+		</Unit>
+		<Unit filename="/home/yug/cp/topics/_5_recursion/_4_spell_counting.cpp">
+			<Option target="topics"/>
+		</Unit>
+		<Unit filename="/home/yug/cp/topics/_5_recursion/_5_exponent.cpp">
+			<Option target="topics"/>
+		</Unit>
+		<Unit filename="/home/yug/cp/topics/_5_recursion/_6_sorted_or_not.cpp">
+			<Option target="topics"/>
+		</Unit>
+		<Unit filename="/home/yug/cp/topics/_5_recursion/_7_generate_power_set.cpp">
+			<Option target="topics"/>
+		</Unit>
+		<Unit filename="/home/yug/cp/topics/_5_recursion/_8_total_number_of_ways_to_reach_destination.cpp">
+			<Option target="topics"/>
+		</Unit>
+		<Unit filename="/home/yug/cp/topics/_5_recursion/_9_generate_sub_sequences.cpp">
+			<Option target="topics"/>
+		</Unit>
+		<Unit filename="/home/yug/cp/topics/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
